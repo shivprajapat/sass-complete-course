@@ -1,0 +1,12 @@
+@media section {
+    .container {
+        .item {
+            background-color: red;
+        }
+        @at-root {
+            .item {
+                background-color: red;
+            }
+        }
+    }
+}
